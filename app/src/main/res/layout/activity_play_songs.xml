@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".playSongs">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="295dp"
+        android:layout_height="313dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/headphone_img" />
+
+    <ImageView
+        android:id="@+id/imgplay"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="112dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/paus_song_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imgprev"
+        android:layout_width="56dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgplay"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/seekBar"
+        app:srcCompat="@drawable/previous_24" />
+
+    <ImageView
+        android:id="@+id/imgnext"
+        android:layout_width="56dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toEndOf="@+id/imgplay"
+        app:layout_constraintTop_toTopOf="@+id/imgplay"
+        app:srcCompat="@drawable/next_24" />
+
+    <TextView
+        android:id="@+id/tvsongnm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Just Chill"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

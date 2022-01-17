@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Songs_List"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/backtext"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/back_arrow"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imgPicsing"
+        android:layout_width="232dp"
+        android:layout_height="299dp"
+        android:layout_gravity="center"
+        android:clickable="false"
+        app:srcCompat="@drawable/daddy_yanke"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tvsingnm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/songsNM_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

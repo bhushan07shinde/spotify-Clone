@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/drawable/backgroundgradient.xml" value="0.2703125" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/drawable/buttons.xml" value="0.125" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/drawable/edit_e_p_text.xml" value="0.2703125" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/drawable/glowlogbtn.xml" value="0.2703125" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.125" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/drawable/logbutton.xml" value="0.2703125" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/drawable/maingradientbg.xml" value="0.2703125" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/drawable/play_pause_song.xml" value="0.2703125" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.192578125" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout-w936dp/activity_login.xml" value="0.190625" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/activity_fullscreen_logo_sr.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/activity_log_inpg.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/activity_login_signup_mn.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/activity_login_signup_st.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/activity_logo_st.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/activity_new_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/activity_play_songs.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/activity_songs_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/category_row_itms.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/category_songs_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/layout/main_recycler_view_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android Apps Store/Spotify2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

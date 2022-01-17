@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginSignupMn"
+    android:background="@drawable/backgroundgradient">
+
+
+<!--    <gradient-->
+<!--        android:type="linear"-->
+<!--        android:angle="0"-->
+<!--        android:startColor="#f6ee19"-->
+<!--        android:endColor="#115ede" />-->
+
+    <ImageView
+        android:id="@+id/imgbackbtn"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/back_arrow"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:contentDescription="TODO" />
+
+    <Button
+        android:id="@+id/regbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttons"
+        android:text="Sign Up Free"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="______________ OR  _______________"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/logbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttons"
+        android:text="Log In"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+</androidx.appcompat.widget.LinearLayoutCompat>
